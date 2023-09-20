@@ -30,6 +30,9 @@ fun main() {
     println(greetingToPrint)
     println(name)
 
+    println(greetingToPrint + name)
+    println(greetingToPrint + " " + name)
+
 
 
 }

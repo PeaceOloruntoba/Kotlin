@@ -21,6 +21,10 @@ fun main() {
     //}
 
     //when statement, similar to switch statement in Java
+    when (greeting) {
+        null -> println("Hiii")
+        else -> println(greeting)
+    }
 
     println(name)
 

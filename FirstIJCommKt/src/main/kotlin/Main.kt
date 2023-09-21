@@ -138,25 +138,25 @@
 
 // VARARG, NAMED ARGUMENTS & DEFAULT PARAMETER VALUES
 
-fun sayHello(greeting: String, vararg itemsToGreet:String) {
-    itemsToGreet.forEach{itemToGreet ->
-        println("$greeting $itemToGreet")
-    }
-}
-
-fun greetPerson(greeting: String = "Hello", name: String = "Kotlin") = println("$greeting $name")
-
-fun main() {
-//var arg
-//    val interestingThings = arrayOf("Kotlin", "Programming", "Comic Book")
-////    sayHello(greeting = "Hi", "Kotlin", "Programming", "Comic Book")
-//    sayHello(greeting = "Hi", *interestingThings)
-// names arg
-//I've used named arguments throughout the code, the benefit is that it allows you to rearrange the order of the arguments definition
-//    greetPerson(name = "Peace", greeting = "Hi")
-//default parameter
-    //the benefit of the default parameter is that you don't need to always define the argument value when you call the function, coz it has been assigned by default in the function and can be modified as required
-//    greetPerson(name = "Peace")
-//    greetPerson()
-
-}
+//fun sayHello(greeting: String, vararg itemsToGreet:String) {
+//    itemsToGreet.forEach{itemToGreet ->
+//        println("$greeting $itemToGreet")
+//    }
+//}
+//
+//fun greetPerson(greeting: String = "Hello", name: String = "Kotlin") = println("$greeting $name")
+//
+//fun main() {
+////var arg
+////    val interestingThings = arrayOf("Kotlin", "Programming", "Comic Book")
+//////    sayHello(greeting = "Hi", "Kotlin", "Programming", "Comic Book")
+////    sayHello(greeting = "Hi", *interestingThings)
+//// names arg
+////I've used named arguments throughout the code, the benefit is that it allows you to rearrange the order of the arguments definition
+////    greetPerson(name = "Peace", greeting = "Hi")
+////default parameter
+//    //the benefit of the default parameter is that you don't need to always define the argument value when you call the function, coz it has been assigned by default in the function and can be modified as required
+////    greetPerson(name = "Peace")
+////    greetPerson()
+//
+//}

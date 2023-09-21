@@ -77,7 +77,11 @@
 // COLLECTION AND ITERATION
 
 
-fun sayHello(greeting: String, itemToGreet:String) = println("$greeting $itemToGreet")
+fun sayHello(greeting: String, itemsToGreet:List<String>) {
+    itemsToGreet.forEach{itemToGreet ->
+        println("$greeting $itemToGreet")
+    }
+}
 fun main() {
 //    val interestingThings = arrayOf("Kotlin", "Programming", "Comic Books")
 //    println(interestingThings.size) //prints the size of the array
@@ -128,5 +132,6 @@ fun main() {
     //same thing applicable to arrays and map but in map you use put() instead of add
 
     //taking each parameter of a collection to use
-
+    val interestingThings = listOf("Kotlin", "Programmin", "Comic Book")
+    sayHello(greeting = "Hi", interestingThings)
 }

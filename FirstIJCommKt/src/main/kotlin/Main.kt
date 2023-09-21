@@ -76,6 +76,8 @@
 
 // COLLECTION AND ITERATION
 
+
+fun sayHello(greeting: String, itemToGreet:String) = println("$greeting $itemToGreet")
 fun main() {
 //    val interestingThings = arrayOf("Kotlin", "Programming", "Comic Books")
 //    println(interestingThings.size) //prints the size of the array
@@ -96,6 +98,35 @@ fun main() {
 //    interestingThings.forEachIndexed { index, interestingThing ->
 //        println("$interestingThing is at index $index")
 //    }
-    //all the method applied above for arrays is also applicable for lists
-    val interestingThings = listOf("Kotlin", "Programming", "Comic Books")
+//    ///LISTS
+//    //all the method applied above for arrays is also applicable for lists
+//    val interestingThings = listOf("Kotlin", "Programming", "Comic Books")
+//    println(interestingThings.size) //prints the size of the list
+//    println(interestingThings[0]) //prints the first item in the list
+//    println(interestingThings.get(0)) //also another method to get the first item in the list
+//    //iterating through the list
+//    //for loops
+////    for (interestingThing in interestingThings){
+////        println(interestingThing)
+////    }
+//    //using a functional approach
+////    interestingThings.forEach {
+////        println(it)
+////    }
+////    interestingThings.forEach {interestingThing ->
+////        println(interestingThing)
+////    }
+//    interestingThings.forEachIndexed { index, interestingThing ->
+//        println("$interestingThing is at index $index")
+//    }
+//    ////MAP (key to value)
+//    val map = mapOf(1 to "a", 2 to "b", 3 to "c")
+//    map.forEach { key, value -> println("$key -> $value") }
+    //in Kotlin, collections are immutable by default, but to make them mutable, to add more values to the collection, we can specify that in the collection declaration
+//    val interestingThings = mutableListOf("Kotlin", "Programming", "Comic Book")
+//    interestingThings.add("Food")
+    //same thing applicable to arrays and map but in map you use put() instead of add
+
+    //taking each parameter of a collection to use
+
 }

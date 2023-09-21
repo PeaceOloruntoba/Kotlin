@@ -90,7 +90,10 @@ fun main() {
 //    interestingThings.forEach {
 //        println(it)
 //    }
-    interestingThings.forEach {interestingThing ->
-        println(interestingThing)
+//    interestingThings.forEach {interestingThing ->
+//        println(interestingThing)
+//    }
+    interestingThings.forEachIndexed { index, interestingThing ->
+        println("$interestingThing is at index $index")
     }
 }

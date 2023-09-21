@@ -156,7 +156,7 @@ fun main() {
 //    greetPerson(name = "Peace", greeting = "Hi")
 //default parameter
     //the benefit of the default parameter is that you don't need to always define the argument value when you call the function, coz it has been assigned by default in the function and can be modified as required
-    greetPerson(name = "Peace")
-    greetPerson()
+//    greetPerson(name = "Peace")
+//    greetPerson()
 
 }

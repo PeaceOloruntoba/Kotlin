@@ -132,6 +132,6 @@ fun main() {
     //same thing applicable to arrays and map but in map you use put() instead of add
 
     //taking each parameter of a collection to use
-    val interestingThings = listOf("Kotlin", "Programmin", "Comic Book")
+    val interestingThings = listOf("Kotlin", "Programming", "Comic Book")
     sayHello(greeting = "Hi", interestingThings)
 }

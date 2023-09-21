@@ -51,10 +51,14 @@
 
 //FUNCTION PARAMETERS
 
-fun sayHello(itemToGreet:String){
-    val msg = "Hello " + itemToGreet
-    println(msg)
-}
+//fun sayHello(itemToGreet:String){
+////    val msg = "Hello " + itemToGreet
+////    val msg = "Hello $itemToGreet"
+////    println(msg)
+//    println("Hello $itemToGreet")
+//}
+//single expression function
+fun sayHello(itemToGreet:String) = println("Hello $itemToGreet")
 
 fun main() {
     sayHello(itemToGreet="Kotlin")

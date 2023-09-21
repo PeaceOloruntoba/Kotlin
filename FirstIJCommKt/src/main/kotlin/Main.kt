@@ -77,23 +77,25 @@
 // COLLECTION AND ITERATION
 
 fun main() {
-    val interestingThings = arrayOf("Kotlin", "Programming", "Comic Books")
-    println(interestingThings.size) //prints the size of the array
-    println(interestingThings[0]) //prints the first item in the array
-    println(interestingThings.get(0)) //also another method to get the first item in the array
-    //iterating through the array
-    //for loops
-//    for (interestingThing in interestingThings){
-//        println(interestingThing)
+//    val interestingThings = arrayOf("Kotlin", "Programming", "Comic Books")
+//    println(interestingThings.size) //prints the size of the array
+//    println(interestingThings[0]) //prints the first item in the array
+//    println(interestingThings.get(0)) //also another method to get the first item in the array
+//    //iterating through the array
+//    //for loops
+////    for (interestingThing in interestingThings){
+////        println(interestingThing)
+////    }
+//    //using a functional approach
+////    interestingThings.forEach {
+////        println(it)
+////    }
+////    interestingThings.forEach {interestingThing ->
+////        println(interestingThing)
+////    }
+//    interestingThings.forEachIndexed { index, interestingThing ->
+//        println("$interestingThing is at index $index")
 //    }
-    //using a functional approach
-//    interestingThings.forEach {
-//        println(it)
-//    }
-//    interestingThings.forEach {interestingThing ->
-//        println(interestingThing)
-//    }
-    interestingThings.forEachIndexed { index, interestingThing ->
-        println("$interestingThing is at index $index")
-    }
+    //all the method applied above for arrays is also applicable for lists
+    val interestingThings = listOf("Kotlin", "Programming", "Comic Books")
 }

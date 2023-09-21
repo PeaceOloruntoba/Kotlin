@@ -51,6 +51,7 @@
 
 //FUNCTION PARAMETERS
 
+//Single function parameter
 //fun sayHello(itemToGreet:String){
 ////    val msg = "Hello " + itemToGreet
 ////    val msg = "Hello $itemToGreet"
@@ -58,9 +59,17 @@
 //    println("Hello $itemToGreet")
 //}
 //single expression function
-fun sayHello(itemToGreet:String) = println("Hello $itemToGreet")
-
-fun main() {
-    sayHello(itemToGreet="Kotlin")
-    sayHello(itemToGreet="Peace")
-}
+//fun sayHello(itemToGreet:String) = println("Hello $itemToGreet")
+//
+//fun main() {
+//    sayHello(itemToGreet="Kotlin")
+//    sayHello(itemToGreet="Peace")
+//}
+//Multiple Function Parameter
+//fun sayHello(greeting:String, itemToGreet:String) = println("$greeting $itemToGreet")
+//
+//fun main() {
+//    sayHello(greeting = "Hey", itemToGreet="Kotlin")
+//    sayHello(greeting = "Hello", itemToGreet="Peace")
+//}
+////N.B.: if you have too many parameters in your function just like in C, C++, and Java, then your function is doing too much

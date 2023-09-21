@@ -87,7 +87,10 @@ fun main() {
 //        println(interestingThing)
 //    }
     //using a functional approach
-    interestingThings.forEach {
-        println(it)
+//    interestingThings.forEach {
+//        println(it)
+//    }
+    interestingThings.forEach {interestingThing ->
+        println(interestingThing)
     }
 }

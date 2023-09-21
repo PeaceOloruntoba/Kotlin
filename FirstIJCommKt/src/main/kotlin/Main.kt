@@ -73,3 +73,21 @@
 //    sayHello(greeting = "Hello", itemToGreet="Peace")
 //}
 ////N.B.: if you have too many parameters in your function just like in C, C++, and Java, then your function is doing too much
+
+// COLLECTION AND ITERATION
+
+fun main() {
+    val interestingThings = arrayOf("Kotlin", "Programming", "Comic Books")
+    println(interestingThings.size) //prints the size of the array
+    println(interestingThings[0]) //prints the first item in the array
+    println(interestingThings.get(0)) //also another method to get the first item in the array
+    //iterating through the array
+    //for loops
+//    for (interestingThing in interestingThings){
+//        println(interestingThing)
+//    }
+    //using a functional approach
+    interestingThings.forEach {
+        println(it)
+    }
+}

@@ -27,4 +27,12 @@ class Person(val firstName: String = "Peace", val lastName: String = "Oloruntoba
             field = value
             println("The new nickname is $value")
         }
+        get() {
+            println("The returned value is $field")
+            return field
+        }
+
+    fun printInfo(){
+        println("$firstName ($nickName) $lastName")
+    }
 }

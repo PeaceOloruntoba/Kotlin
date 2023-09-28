@@ -166,8 +166,10 @@
 fun main() {
 //    val person = Person(_firstName = "Peace", _lastName = "Oloruntoba")
     val person = Person()
-    person.lastName
-    person.firstName
-    person.nickName = "PeaceCodes"
-    person.nickName = "New Nickname"
+//    person.lastName
+//    person.firstName
+//    person.nickName = "PeaceCodes"
+//    person.nickName = "New Nickname"
+//    println(person.nickName)
+    person.printInfo()
 }

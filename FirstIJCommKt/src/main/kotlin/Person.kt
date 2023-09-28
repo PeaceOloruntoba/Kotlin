@@ -23,4 +23,8 @@
 
 class Person(val firstName: String = "Peace", val lastName: String = "Oloruntoba"){
     var nickName: String? = null
+        set(value) {
+            field = value
+            println("The new nickname is $value")
+        }
 }

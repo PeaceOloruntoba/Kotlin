@@ -169,4 +169,5 @@ fun main() {
     person.lastName
     person.firstName
     person.nickName = "PeaceCodes"
+    person.nickName = "New Nickname"
 }

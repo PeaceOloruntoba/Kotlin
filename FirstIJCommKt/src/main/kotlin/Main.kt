@@ -164,5 +164,5 @@
 //CLASSES
 
 fun main() {
-    val person = Person()
+    val person = Person(_firstName = "Peace", _lastName = "Oloruntoba")
 }

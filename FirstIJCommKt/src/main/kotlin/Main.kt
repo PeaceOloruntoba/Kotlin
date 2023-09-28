@@ -165,7 +165,7 @@
 
 fun main() {
 //    val person = Person(_firstName = "Peace", _lastName = "Oloruntoba")
-    val person = Person("Peace", "Oloruntoba")
+    val person = Person()
     person.lastName
     person.firstName
 }

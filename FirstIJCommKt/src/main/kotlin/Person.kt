@@ -24,7 +24,7 @@
 //VISIBILITY OF CLASSES
 // class are public by default, but you can also specify it by using the public keywords, if a class is public then it can be accessed from anywhere in the project
 // class also can be defined as internal, that is, it will only be visible in the dir and in the module where it is located, you also define this by using the internal keyword
-
+// class can also be private that is it wil only be available within the class and it's sub classes
 class Person(val firstName: String = "Peace", val lastName: String = "Oloruntoba"){
     var nickName: String? = null
         set(value) {

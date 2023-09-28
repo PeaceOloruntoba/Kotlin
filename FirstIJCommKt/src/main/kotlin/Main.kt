@@ -168,4 +168,5 @@ fun main() {
     val person = Person()
     person.lastName
     person.firstName
+    person.nickName = "PeaceCodes"
 }

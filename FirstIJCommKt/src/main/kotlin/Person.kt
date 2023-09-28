@@ -21,6 +21,8 @@
 //    }
 //}
 
+//VISIBILITY OF CLASSES
+// classes are public by default but you can also specify it by using the public keywords, if a class is public then it can be accessed from anywhere in the project
 class Person(val firstName: String = "Peace", val lastName: String = "Oloruntoba"){
     var nickName: String? = null
         set(value) {

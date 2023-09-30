@@ -15,6 +15,11 @@ class BasicInfoProvider : PersonInfoProvider{
 //    }
     override val providerInfo: String
         get() = "BasicInfoProvider"
+
+    override fun printInfo(person: Person) {
+        super.printInfo(person)
+        println("Additional Junks")
+    }
 }
 
 fun main(){

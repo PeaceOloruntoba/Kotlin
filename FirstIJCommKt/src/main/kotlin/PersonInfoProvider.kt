@@ -3,5 +3,13 @@ interface PersonInfoProvider{
 }
 
 
-class BasicInfoProvider : PersonInfoProvider
+class BasicInfoProvider : PersonInfoProvider{
+    override fun printInfo(person: Person) {
+        
+    }
+}
+
+fun main(){
+
+}
 

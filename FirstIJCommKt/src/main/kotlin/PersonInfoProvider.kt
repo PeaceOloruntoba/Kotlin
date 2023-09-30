@@ -5,11 +5,15 @@ interface PersonInfoProvider{
 
 class BasicInfoProvider : PersonInfoProvider{
     override fun printInfo(person: Person) {
-        
+        println("basicInfoProvider")
+        person.printInfo()
     }
 }
 
 fun main(){
+    val provider = BasicInfoProvider()
+
+    provider.printInfo(Person())
 
 }
 

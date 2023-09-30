@@ -126,7 +126,7 @@ open class BasicInfoProvider : PersonInfoProvider, SessionInfoProvider{
 }
 
 fun main() {
-    val provider = BasicInfoProvider()
+    val provider = FancyInfoProvider()
 
     provider.printInfo(Person())
     provider.getSessionId()

@@ -1,2 +1,5 @@
 
-class FancyInfoProvider : BasicInfoProvider()
+class FancyInfoProvider : BasicInfoProvider(){
+    override val providerInfo: String
+        get() = "fancyInfoProvider"
+}

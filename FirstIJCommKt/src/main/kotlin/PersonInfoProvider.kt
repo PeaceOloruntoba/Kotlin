@@ -115,13 +115,15 @@ open class BasicInfoProvider : PersonInfoProvider, SessionInfoProvider{
     override val providerInfo: String
         get() = "BasicInfoProvider"
 
+    val sessionIdPrefix = "Session"
+
     override fun printInfo(person: Person) {
         super.printInfo(person)
         println("Additional Junks")
     }
 
     override fun getSessionId(): String {
-        return "Session"
+        return sessionIdPrefix
     }
 }
 

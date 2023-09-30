@@ -1,3 +1,45 @@
+//interface PersonInfoProvider{
+//    val providerInfo : String
+//
+//    fun printInfo(person: Person){
+//        println(providerInfo)
+//        person.printInfo()
+//    }
+//}
+//
+//interface SessionInfoProvider{
+//    fun getSessionId(): String
+//}
+//
+//
+//class BasicInfoProvider : PersonInfoProvider, SessionInfoProvider{
+////    override fun printInfo(person: Person) {
+////        println("basicInfoProvider")
+////        person.printInfo()
+////    }
+//    override val providerInfo: String
+//        get() = "BasicInfoProvider"
+//
+//    override fun printInfo(person: Person) {
+//        super.printInfo(person)
+//        println("Additional Junks")
+//    }
+//
+//    override fun getSessionId(): String {
+//        return "Session"
+//    }
+//}
+//
+//fun main(){
+//    val provider = BasicInfoProvider()
+//
+//    provider.printInfo(Person())
+//    provider.getSessionId()
+//
+//}
+//
+//TYPE-CHECKING AND TYPE-CASTING IN KOTLIN
+
 interface PersonInfoProvider{
     val providerInfo : String
 
@@ -12,7 +54,7 @@ interface SessionInfoProvider{
 }
 
 
-class BasicInfoProvider : PersonInfoProvider{
+class BasicInfoProvider : PersonInfoProvider, SessionInfoProvider{
 //    override fun printInfo(person: Person) {
 //        println("basicInfoProvider")
 //        person.printInfo()
@@ -24,12 +66,16 @@ class BasicInfoProvider : PersonInfoProvider{
         super.printInfo(person)
         println("Additional Junks")
     }
+
+    override fun getSessionId(): String {
+        return "Session"
+    }
 }
 
-fun main(){
+fun main() {
     val provider = BasicInfoProvider()
 
     provider.printInfo(Person())
-
+    provider.getSessionId()
 }
 

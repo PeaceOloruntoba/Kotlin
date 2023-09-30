@@ -7,6 +7,10 @@ interface PersonInfoProvider{
     }
 }
 
+interface SessionInfoProvider{
+    fun getSessionId(): String
+}
+
 
 class BasicInfoProvider : PersonInfoProvider{
 //    override fun printInfo(person: Person) {

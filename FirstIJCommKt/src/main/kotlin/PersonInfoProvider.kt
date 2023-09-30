@@ -107,7 +107,7 @@ interface SessionInfoProvider{
 }
 
 
-class BasicInfoProvider : PersonInfoProvider, SessionInfoProvider{
+open class BasicInfoProvider : PersonInfoProvider, SessionInfoProvider{
     //    override fun printInfo(person: Person) {
 //        println("basicInfoProvider")
 //        person.printInfo()

@@ -115,7 +115,7 @@ open class BasicInfoProvider : PersonInfoProvider, SessionInfoProvider{
     override val providerInfo: String
         get() = "BasicInfoProvider"
 
-    val sessionIdPrefix = "Session"
+    open val sessionIdPrefix = "Session"
 
     override fun printInfo(person: Person) {
         super.printInfo(person)
